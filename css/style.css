@@ -10,25 +10,46 @@ h1 {
   color: #865715;
 }
 
-h5 {
-    text-align: center;
-    font-weight: normal;
-    font-size: 15px;
+p {
+  text-align: center;
+  font-weight: normal;
+  font-size: 15px;
 }
 
 .link {
-  text-align: center;
-  margin: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.link a {
+  margin: 10px;
+  border-radius: 4px;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .contact-link {
-    margin-top: 20px;
   border: 1px solid #eec791;
-  border-radius: 4px;
-  padding: 5px;
   color: white;
-  background: #cfa56c;
-  margin: 30px;
+  background: #b67315;
+}
+
+.about-link {
+  border: 1px solid #eec791;
+  color: #eec791;
+}
+
+.photo-link {
+  border: 1px solid #684109;
+  color: #946b33;
+}
+
+.homepage-link {
+  border: 1px solid #eec791;
+  color: white;
+  background: #684109;
 }
 
 img {
